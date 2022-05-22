@@ -1,0 +1,73 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to cart.com",
+    "line": 1,
+    "id": "login-to-cart.com",
+    "tags": [],
+    "uri": "cartLogin.feature",
+    "elements": [
+      {
+        "id": "login-to-cart.com;user-should-be-able-to-login-to-cart.com-with-valid-user-name-and-password.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should be able to login to cart.com with valid user name and password.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the url https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 5577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter valid email",
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter valid password",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I land on organization dashboard page",
+            "result": {
+              "status": "failed",
+              "duration": 4026000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Dashboard' but never did.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:63:6)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:13192:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:12513:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
