@@ -2,17 +2,21 @@
 
 ## clone the repository
 ```
+git clone https://github.com/ybhuiyan/cart-storefront-integration-api.git
+```
+## Goto your project directory
+```
 $ cd your/project/path
 ```
 ## if there is no node_modules folder, then run:
 ```
-	$ npm install
+$ npm install
 ```
 *It will install the necessary files*
 
 ## to start testing, run:
 ```
-	$ ./node_modules/.bin/cypress open
+$ ./node_modules/.bin/cypress open
 ```
 
 you will see an application named **Cypress** on your taskbar.
